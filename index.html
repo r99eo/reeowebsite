@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>صفحتي الشخصية</title>
+<link rel="stylesheet" href="style.css">
+<style>
+    table,th,td{
+        border: 1px solid;
+        padding: 3px;
+        text-align: center;
+        background-color:blueviolet;}
+</style>
+
+<style>
+    @media  screen and (max-width: 800px) {
+        img {
+            width:70%;
+            height:auto;
+        }
+        
+    }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="menu">
+    <button class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </button>
+</div>
+
+
+<nav>
+    <ul class="nav">
+        <li><a href="#about">نبذة عني</a></li>
+        <li><a href="#photos">معرض الصور</a></li>
+        <li><a href="#video">فيديو</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    
+    <section id="about">
+        <h1>نبذة عني</h1>
+
+        <p class="about-text">
+           💜 أنا طالبة في المرحلة الثانوية، لدي شغف بالتعلم واكتشاف كل ما هو جديد، خاصة في مجال التقنية والبرمجة. أحب تطوير مهاراتي بشكل مستمر وأسعى لأن يكون لي أثر مميز في مستقبلي ، وأؤمن أن الاجتهاد والطموح هما الطريق لتحقيق الأحلام.✨
+        </p>
+    </section>
+    
+<div class="welcome">
+    <h1 style="text-align:center; color:blueviolet; text-shadow: rgb(94, 9, 9); font-size: 40px;">
+    <script src="Rafeef.js"></script> </h1>
+</div>
+    <hr>
+
+    
+    <section id="photos">
+        <h2>📸 معرض الصور</h2>
+
+        <div class="gallery">
+            <img src="myphoto.jpg.jpeg">
+            <img src="cat.jpeg">
+            <img src="2.jpeg">
+            <img src="3.jpeg">
+            <img src="4.jpeg">
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="video">
+        <h2>🎥 فيديو من تصويري</h2>
+
+        <video src="video.mp4" controls></video>
+    </section>
+
+</div>
+
+<p id="x">ريو ترحب بكم</p>
+<button onclick="myfun()">اضغط هنا</button>
+
+
+
+<script>
+    
+    window.alert("مرحبا بكم اضغط على حسنا");
+    document.write("reeowibsite");
+    function myfun()
+    {
+        document.getElementById("x").innerHTML="تم انضمامك الى الموقع"
+
+    }
+</script>
+<script>
+function myFunction() {
+    document.querySelector(".nav").classList.toggle("show");
+}
+</script>
+<table>
+    <tr>
+        <th>اسم الطالبة</th>
+        <th>درجة مادة الرياضيات</th>
+        <th>درجة مادة الكيمياء</th>
+    </tr>
+    <tr>
+        <td>سارة</td>
+        <td>19</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>جود</td>
+        <td>15</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>هدى</td>
+        <td>17</td>
+        <td>20</td>
+    </tr>
+</table>
+
+</body>
+</html>
